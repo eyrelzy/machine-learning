@@ -1,0 +1,13 @@
+q = 0
+Accuracy: 0.1389
+q = .1
+Accuracy: 0.8333
+q = .5
+Accuracy: 0.8056
+q = 1
+Accuracy: 0.8056
+q = 5
+Accuracy: 0.6944
+As the smoothing factor q increases, accuracy first increases to some point, and decreases.
+q=0.1 is a peak value, that's to say when we are giving a properly small priority to vocabulary size, and then the classifier
+ could have a good performance

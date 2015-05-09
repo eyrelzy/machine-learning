@@ -1,0 +1,10 @@
+
+1.Do the two lists look different?
+Two lists are slightly different.
+
+2.Are there any overlapping words?
+Yes. Words, namely the, to, of, and, a, in, that, is, for, on, i, this ,it, by, with, be, was, as, although some of them are in different orders.
+And there are also some different words in two lists, like are, have, you, at.
+
+3.In general, what kind of words are they?
+Most of them are stop words, or most frequent words in almost every article.

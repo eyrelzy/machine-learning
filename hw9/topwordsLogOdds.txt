@@ -1,0 +1,10 @@
+1.What kind of words did you find? 
+They are the words with high log-odds ratio, which means that they appears frequently in one data set, while seldom appears in the other.
+And their log ratio is quite similar, and almost in the same level.
+
+2.Are there any overlapping words between the two lists? 
+There is no overlapping.
+
+3.How are these words different from what you found with topwords.py / topwords.java?
+Words in topwords.py are those frequently appears in almost every article, and words rank high with log-odds ratio indicate the difference of
+articles. Words in the two lists could be considered as the features of one kind of corpus.

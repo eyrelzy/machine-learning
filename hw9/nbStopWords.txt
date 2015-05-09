@@ -1,0 +1,28 @@
+Investigate various settings for N:
+N=0
+Accuracy: 0.8056
+N=10
+Accuracy: 0.8056
+N=20
+Accuracy: 0.8056
+N=50
+Accuracy: 0.8333
+N=70
+Accuracy: 0.8611
+N=100
+Accuracy: 0.8611
+N=200
+Accuracy: 0.8611
+N=500
+Accuracy: 0.8611
+N=1000
+Accuracy: 0.8611
+N=10000
+Accuracy: 0.8333
+N=50000
+Accuracy: 0.6389
+As N increases, it first improve the classifier, and then it maintains on some points, and finally decreases when N is extremely large.
+The turning point is when N=70, since we properly remove the most frequent words, which do little to the context of articles. It's 
+interesting that when N=50000, actually it's more than the vocabulary size (45431), we could see that all the instances are removed 
+from the probability set, and the final MAP score derives from the prior, where conservative corups's prior is
+more than that of liberal. So, we can see at that time all the test instances are labeled as 'C', but still has an accuracy of 0.6389.
