@@ -1,0 +1,3 @@
+After sorting the data set by each column, I found out feature 'year' could best
+classify the whole data set. If it is 'before1950', it is more likely to be considered
+as 'yes', while most of them are considered as 'no' when 'year'='after1950'

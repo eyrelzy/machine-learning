@@ -1,0 +1,3 @@
+After sorting the dataset by each column, I found out F score could best 
+classify the whole data set. If F score is 'A', then the final score are more 
+likely to be 'A'.

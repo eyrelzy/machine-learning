@@ -1,0 +1,27 @@
+Our Decision Tree(DT) has the following specialties:
+
+1. discrete value
+ID3 algorithm could calculate discrete data, while other algorithms like CART
+could deal with continuous data. In both dataset, each attribute has discrete data, 
+which satisfy DT's need.
+
+2. scale of training set and # of categories
+Decision tree would high classification error rate when training set is small in
+comparison with # of label classes. In this point of view, both data sets have 
+two classes, and education have more training data, which might be better fit.
+
+3. # of attributes
+Education data set has a little bit fewer attributes, and problem is smaller and needs fewer 
+calculations, which might be better when using DT
+
+4. Discriminatory features
+DT has the ability of selecting the most discriminatory features. In education data set, features
+are less correlated, which behaves well in DT.
+
+5. Noisy data
+Both data sets have noisy data with the same feature values, but different label class. 
+Decision tree have a relatively good performance on dealing with this compared with other 
+classifiers. From this point of view, DT greatly fits these two data sets.
+
+To sum up, from different point of view, we could see if DT is appropriate for each task.
+
