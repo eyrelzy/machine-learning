@@ -1,0 +1,11 @@
+How well did it do? What, if anything, can you learn from this? 
+#1
+The hypothesis space is up to the size of attribute set. If it is huge, we are more likely to have a rather big hypothesis space.
+The training data set could greatly filters the hypothesis space, thus the version space turns out to be small part of hypothesis space.
+#2
+However, its performance depends on the size of training set. 
+When the training set is relatively small, it could do little to narrow down the hypothesis space, and version space ends up to be big.
+#3
+For the vote part, if the test data are not labeled in training set, we have to vote. But, each possible concepts gives the same vote to the result.
+In this case, we still could not decide whether to consider it as high or low, that's to say for these data, they have 50 percent to be high and also 50 percent to be low.
+Find-S algorithm will make a decision, compared with this LIST-THEN-ELIMINATE algorithm.
